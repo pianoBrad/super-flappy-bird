@@ -119,6 +119,10 @@ var is_bird_touching = function() {
 }
 
 $(document).ready(function() {
+
+	$(function() {
+            FastClick.attach(document.body);
+    });
 	
 
 	$('body').one('click', function() {
